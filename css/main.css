@@ -213,9 +213,6 @@ li {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-*:focus {
-  outline: none;
-}
 .clearfix:after {
   content: ".";
   display: block;
