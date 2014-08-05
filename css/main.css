@@ -313,7 +313,7 @@ a.boton {
 }
 a.boton:hover {
   color: #fff;
-  background: #0168b3;
+  background: #0f69b4;
   border-bottom: 2px solid #045282;
 }
 a#menu-movil-trigger {
@@ -334,8 +334,8 @@ a#menu-movil-trigger {
   text-align: center;
 }
 a#menu-movil-trigger:hover {
-  border-bottom: 2px solid #0168b3;
-  color: #0168b3;
+  border-bottom: 2px solid #0f69b4;
+  color: #0f69b4;
 }
 a#menu-movil-cerrar {
   cursor: pointer;
@@ -394,11 +394,11 @@ a#menu-movil-cerrar {
   height: 100%;
 }
 .bicolor span.azul {
-  background: #0168b3;
+  background: #0f69b4;
   width: 46%;
 }
 .bicolor span.rojo {
-  background: #ee3a43;
+  background: #eb3646;
   width: 54%;
 }
 #menu-movil {
@@ -417,7 +417,7 @@ a#menu-movil-cerrar {
   padding: 5px;
 }
 #menu-movil nav ul li a:hover {
-  color: #0168b3;
+  color: #0f69b4;
 }
 #menu-movil nav ul li ul {
   padding: 0 0 0 40px;
@@ -598,7 +598,7 @@ a#menu-movil-cerrar {
   display: block;
 }
 .fotodeldia a.foto h5 {
-  color: #0168b3;
+  color: #0f69b4;
   padding: 11px 0 6px;
   margin: 0 15px;
   border-bottom: 1px solid #e6e6e6;
@@ -639,7 +639,7 @@ a#menu-movil-cerrar {
   line-height: 110%;
 }
 #tweet-destacado .left .texto span.nombre {
-  color: #0168b3;
+  color: #0f69b4;
   font-size: 29px;
 }
 #tweet-destacado .left .texto span.descripcion {
@@ -757,8 +757,8 @@ header nav#menu-principal ul li a {
   border-bottom: 2px solid #bdc9d1;
 }
 header nav#menu-principal ul li a:hover {
-  color: #0168b3;
-  border-bottom: 2px solid #0168b3;
+  color: #0f69b4;
+  border-bottom: 2px solid #0f69b4;
   text-decoration: none;
 }
 header nav#menu-principal ul li:last-child a {
@@ -766,8 +766,8 @@ header nav#menu-principal ul li:last-child a {
 }
 header nav#menu-principal ul li.current-menu-item a,
 header nav#menu-principal ul li.current-menu-ancestor a {
-  color: #0168b3;
-  border-bottom: 2px solid #0168b3;
+  color: #0f69b4;
+  border-bottom: 2px solid #0f69b4;
 }
 header nav#menu-principal ul li.menu-item-80 a,
 header nav#menu-principal ul li.menu-item-477 a {
@@ -776,7 +776,7 @@ header nav#menu-principal ul li.menu-item-477 a {
 header nav#menu-principal ul li ul.sub-menu {
   position: absolute;
   z-index: 9;
-  background: #0168b3;
+  background: #0f69b4;
   width: 100%;
   display: none;
   padding: 0;
@@ -878,7 +878,7 @@ header nav#menu-principal ul li:hover ul.sub-menu {
   float: left;
 }
 #content #main .stream .tarjeta .texto h4 {
-  color: #0168b3;
+  color: #0f69b4;
   margin: 0 auto 15px;
 }
 #content #main .stream .tarjeta .texto h4 a:hover {
@@ -959,7 +959,7 @@ header nav#menu-principal ul li:hover ul.sub-menu {
 }
 #content #main .buscar input#boton {
   width: 40px;
-  background: #0168b3 url("../img/svg/buscar-bg.svg") no-repeat center;
+  background: #0f69b4 url("../img/svg/buscar-bg.svg") no-repeat center;
   background-size: 18px;
 }
 #content #sidebar {
@@ -975,7 +975,7 @@ header nav#menu-principal ul li:hover ul.sub-menu {
 }
 #content #sidebar .lista-sidebar h5 {
   margin: 0 0 12px;
-  color: #0168b3;
+  color: #0f69b4;
 }
 #content #sidebar .lista-sidebar ul {
   padding: 0 0 0 16px;
@@ -1009,7 +1009,7 @@ footer .top .listas .lista:last-child {
 }
 footer .top .listas .lista h5 {
   margin: 0 0 20px;
-  color: #0168b3;
+  color: #0f69b4;
 }
 footer .top .listas .lista ul {
   padding: 0 0 0 16px;
@@ -1050,7 +1050,7 @@ footer .top .listas .lista.contactate a {
 }
 footer .top .listas .lista.contactate a:hover {
   color: #fff;
-  background: #0168b3;
+  background: #0f69b4;
   border-bottom: 2px solid #045282;
 }
 footer .top .listas .lista ul#menu-banners-footer {
@@ -1069,13 +1069,13 @@ footer .top .listas .lista ul#menu-banners-footer li a {
   font-family: "gobCL", Tahoma, Verdana, Segoe, sans-serif;
   font-size: 13px;
   font-weight: 500;
-  color: #0168b3;
+  color: #0f69b4;
   padding: 17px 0 0 12px;
   background: url("../img/banners-footer-bullet.png") no-repeat left center;
   border-bottom: 1px solid #bdc9d1;
 }
 footer .top .listas .lista ul#menu-banners-footer li a:hover {
-  background: #0168b3 url("../img/banners-footer-bullet-hover.png") no-repeat left center;
+  background: #0f69b4 url("../img/banners-footer-bullet-hover.png") no-repeat left center;
   color: #fff;
 }
 footer .top .sep {
@@ -1211,12 +1211,12 @@ footer .bottom .bicolor {
 .single #content #main .post .fontsize ul li.current a,
 .page #content #main .post .fontsize ul li.current a,
 .error404 #content #main .post .fontsize ul li.current a {
-  background: #0168b3;
+  background: #0f69b4;
 }
 .single #content #main .post .fontsize ul li:hover a,
 .page #content #main .post .fontsize ul li:hover a,
 .error404 #content #main .post .fontsize ul li:hover a {
-  background: #0168b3;
+  background: #0f69b4;
 }
 .single #content #main .post .texto,
 .page #content #main .post .texto,
@@ -1233,7 +1233,7 @@ footer .bottom .bicolor {
 .single #content #main .post .texto h3,
 .page #content #main .post .texto h3,
 .error404 #content #main .post .texto h3 {
-  color: #0168b3;
+  color: #0f69b4;
   padding: 0 0 15px;
   margin: 0 0 25px;
   border-bottom: 1px solid #bdc9d1;
@@ -1246,7 +1246,7 @@ footer .bottom .bicolor {
 .single #content #main .post .texto .contenido a,
 .page #content #main .post .texto .contenido a,
 .error404 #content #main .post .texto .contenido a {
-  color: #0168b3;
+  color: #0f69b4;
 }
 .single #content #main .post .texto .contenido a:hover,
 .page #content #main .post .texto .contenido a:hover,
@@ -1282,13 +1282,13 @@ footer .bottom .bicolor {
 .single #content #main .post .texto .contenido h5,
 .page #content #main .post .texto .contenido h5,
 .error404 #content #main .post .texto .contenido h5 {
-  color: #0168b3;
+  color: #0f69b4;
   margin: 0 0 10px;
 }
 .single #content #main .post .texto .contenido blockquote,
 .page #content #main .post .texto .contenido blockquote,
 .error404 #content #main .post .texto .contenido blockquote {
-  border-left: 2px solid #0168b3;
+  border-left: 2px solid #0f69b4;
   margin: 0;
   padding: 0 0 0 20px;
 }
@@ -1351,11 +1351,11 @@ footer .bottom .bicolor {
 .error404 #content #main.autoridades-lista .post .texto .links a {
   display: block;
   float: left;
-  color: #0168b3;
+  color: #0f69b4;
   font-size: 12px;
   margin: 5px 0 0;
   padding: 0 7px;
-  border-left: 1px solid #0168b3;
+  border-left: 1px solid #0f69b4;
 }
 .single #content #main.autoridades-lista .post .texto .links a:first-child,
 .page #content #main.autoridades-lista .post .texto .links a:first-child,
@@ -1410,7 +1410,7 @@ footer .bottom .bicolor {
 .page #content #main.autoridades-single .post .info ul li span,
 .error404 #content #main.autoridades-single .post .info ul li span {
   display: block;
-  color: #0168b3;
+  color: #0f69b4;
 }
 .single #content #main.autoridades-single .post .texto,
 .page #content #main.autoridades-single .post .texto,
@@ -1424,7 +1424,7 @@ footer .bottom .bicolor {
 .single #content #main.autoridades-single .post .texto h3.title,
 .page #content #main.autoridades-single .post .texto h3.title,
 .error404 #content #main.autoridades-single .post .texto h3.title {
-  color: #0168b3;
+  color: #0f69b4;
   margin: 0 0 5px;
   padding: 0;
   border-bottom: none;
@@ -1443,19 +1443,19 @@ footer .bottom .bicolor {
 .single #content #main.autoridades-single .post .texto .contenido h4,
 .page #content #main.autoridades-single .post .texto .contenido h4,
 .error404 #content #main.autoridades-single .post .texto .contenido h4 {
-  color: #0168b3;
+  color: #0f69b4;
   margin: 0 0 13px;
 }
 .single #content #main.autoridades-single .post .texto .contenido h5,
 .page #content #main.autoridades-single .post .texto .contenido h5,
 .error404 #content #main.autoridades-single .post .texto .contenido h5 {
-  color: #0168b3;
+  color: #0f69b4;
   margin: 0 0 10px;
 }
 .single #content #main.autoridades-single .post .texto .contenido blockquote,
 .page #content #main.autoridades-single .post .texto .contenido blockquote,
 .error404 #content #main.autoridades-single .post .texto .contenido blockquote {
-  border-left: 2px solid #0168b3;
+  border-left: 2px solid #0f69b4;
   margin: 0;
   padding: 0 0 0 20px;
 }
