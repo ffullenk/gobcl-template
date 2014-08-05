@@ -285,7 +285,7 @@ h3 {
   font-weight: 500;
 }
 h4 {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1.2em;
   font-weight: 500;
 }
@@ -1230,9 +1230,9 @@ footer .bottom .bicolor {
   display: block;
   margin: 0 0 15px;
 }
-.single #content #main .post .texto h2,
-.page #content #main .post .texto h2,
-.error404 #content #main .post .texto h2 {
+.single #content #main .post .texto h3,
+.page #content #main .post .texto h3,
+.error404 #content #main .post .texto h3 {
   color: #0168b3;
   padding: 0 0 15px;
   margin: 0 0 25px;
@@ -1421,9 +1421,9 @@ footer .bottom .bicolor {
   padding: 25px 20px 20px;
   border-bottom: 2px solid #bdc9d1;
 }
-.single #content #main.autoridades-single .post .texto h2.title,
-.page #content #main.autoridades-single .post .texto h2.title,
-.error404 #content #main.autoridades-single .post .texto h2.title {
+.single #content #main.autoridades-single .post .texto h3.title,
+.page #content #main.autoridades-single .post .texto h3.title,
+.error404 #content #main.autoridades-single .post .texto h3.title {
   color: #0168b3;
   margin: 0 0 5px;
   padding: 0;
