@@ -1179,6 +1179,7 @@ footer .bottom .bicolor {
 .single #content #main .post .fontsize ul li a,
 .page #content #main .post .fontsize ul li a,
 .error404 #content #main .post .fontsize ul li a {
+  cursor: pointer;
   display: block;
   background: #bdc9d1;
   color: #fff;
