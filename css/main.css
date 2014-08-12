@@ -6,8 +6,6 @@ html {
 }
 body {
   margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 article,
 aside,
@@ -189,6 +187,8 @@ body {
   margin: 0 auto;
   color: #475156;
   font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 a {
   text-decoration: none;
@@ -615,56 +615,56 @@ a#menu-movil-cerrar {
 .fotodeldia a.mas-fotos {
   font-size: 12px;
 }
-#tweet-destacado {
+#cita-destacada {
   background: #fff;
   margin: 0 auto 25px;
   border-bottom: 2px solid #bdc9d1;
   font-family: "gobCL", Tahoma, Verdana, Segoe, sans-serif;
 }
-#tweet-destacado .bicolor {
+#cita-destacada .bicolor {
   height: 2px;
 }
-#tweet-destacado .left {
+#cita-destacada .left {
   width: 330px;
   padding: 0 20px;
   margin: 30px 0 0;
   float: left;
 }
-#tweet-destacado .left .texto {
+#cita-destacada .left .texto {
   padding: 0 0 0 35px;
   background: url("../img/svg/cita-destacada-bg.svg") no-repeat;
   background-size: 23px auto;
   background-position: 0 5px;
 }
-#tweet-destacado .left .texto span {
+#cita-destacada .left .texto span {
   display: block;
   line-height: 110%;
 }
-#tweet-destacado .left .texto span.nombre {
+#cita-destacada .left .texto span.nombre {
   color: #0f69b4;
   font-size: 29px;
 }
-#tweet-destacado .left .texto span.descripcion {
+#cita-destacada .left .texto span.descripcion {
   color: #2e353a;
 }
-#tweet-destacado .left .texto span.usuario {
+#cita-destacada .left .texto span.usuario {
   color: #7a8791;
 }
-#tweet-destacado .right {
+#cita-destacada .right {
   width: 670px;
   padding: 0 30px;
   margin: 30px 0 20px;
   float: left;
   border-left: 1px solid #bdc9d1;
 }
-#tweet-destacado .right .texto {
+#cita-destacada .right .texto {
   font-family: Georgia, Times, "Times New Roman", serif;
   color: #475156;
   font-size: 23px;
   line-height: 140%;
   margin: 0 auto 35px;
 }
-#tweet-destacado .right .fecha {
+#cita-destacada .right .fecha {
   font-family: "gobCL", Tahoma, Verdana, Segoe, sans-serif;
   color: #7a8791;
 }
