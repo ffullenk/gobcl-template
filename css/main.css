@@ -211,6 +211,13 @@ li {
   margin: 0;
   list-style: none;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+a img {
+  float: left;
+}
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -351,27 +358,37 @@ a#menu-movil-cerrar {
 .banner a {
   display: block;
 }
+.banner:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
 .banner.banner-foto {
   width: 660px;
-  height: 132px;
+  min-height: 130px;
 }
-.banner.banner-foto .imagen {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.banner.banner-foto a {
+  width: 100%;
+  height: 100%;
 }
-.banner.banner-foto .texto {
-  font-family: "gobCL", Tahoma, Verdana, Segoe, sans-serif;
-  color: #fff;
+.banner.banner-foto .velo {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.3);
-  padding: 60px 10px 10px 340px;
+  z-index: 9;
+}
+.banner.banner-foto .texto {
+  font-family: "gobCL", Tahoma, Verdana, Segoe, sans-serif;
+  color: #fff;
+  position: absolute;
+  right: 115px;
+  bottom: 12px;
+  z-index: 10;
 }
 .banner.banner-foto .texto span {
   display: block;
@@ -384,7 +401,6 @@ a#menu-movil-cerrar {
 }
 .banner.banner-corto {
   width: 320px;
-  height: 102px;
 }
 .bicolor {
   position: relative;
@@ -963,6 +979,10 @@ header nav#menu-principal ul li:hover ul.sub-menu {
   width: 40px;
   background: #0f69b4 url("../img/svg/buscar-bg.svg") no-repeat center;
   background-size: 18px;
+  text-indent: 1000%;
+}
+#content #main .buscar input#boton:hover {
+  background-color: #0b4e85;
 }
 #content #sidebar {
   width: 320px;
@@ -1293,6 +1313,7 @@ footer .bottom .bicolor {
   border-left: 2px solid #0f69b4;
   margin: 0;
   padding: 0 0 0 20px;
+  line-height: 160%;
 }
 .single #content #main .post .texto .contenido blockquote p,
 .page #content #main .post .texto .contenido blockquote p,
@@ -1316,6 +1337,57 @@ footer .bottom .bicolor {
 .page #content #main .post .texto .contenido object,
 .error404 #content #main .post .texto .contenido object {
   max-width: 100%;
+}
+.single #content #main .post .texto .contenido ol,
+.page #content #main .post .texto .contenido ol,
+.error404 #content #main .post .texto .contenido ol,
+.single #content #main .post .texto .contenido ul,
+.page #content #main .post .texto .contenido ul,
+.error404 #content #main .post .texto .contenido ul {
+  padding-left: 25px;
+  margin-bottom: 15px;
+}
+.single #content #main .post .texto .contenido ol li,
+.page #content #main .post .texto .contenido ol li,
+.error404 #content #main .post .texto .contenido ol li,
+.single #content #main .post .texto .contenido ul li,
+.page #content #main .post .texto .contenido ul li,
+.error404 #content #main .post .texto .contenido ul li {
+  margin-bottom: 5px;
+}
+.single #content #main .post .texto .contenido ol ol,
+.page #content #main .post .texto .contenido ol ol,
+.error404 #content #main .post .texto .contenido ol ol,
+.single #content #main .post .texto .contenido ul ol,
+.page #content #main .post .texto .contenido ul ol,
+.error404 #content #main .post .texto .contenido ul ol,
+.single #content #main .post .texto .contenido ol ul,
+.page #content #main .post .texto .contenido ol ul,
+.error404 #content #main .post .texto .contenido ol ul,
+.single #content #main .post .texto .contenido ul ul,
+.page #content #main .post .texto .contenido ul ul,
+.error404 #content #main .post .texto .contenido ul ul {
+  margin-bottom: 0;
+}
+.single #content #main .post .texto .contenido ol li,
+.page #content #main .post .texto .contenido ol li,
+.error404 #content #main .post .texto .contenido ol li {
+  list-style: decimal;
+}
+.single #content #main .post .texto .contenido ol li ol,
+.page #content #main .post .texto .contenido ol li ol,
+.error404 #content #main .post .texto .contenido ol li ol {
+  list-style: lower-roman;
+}
+.single #content #main .post .texto .contenido ul li,
+.page #content #main .post .texto .contenido ul li,
+.error404 #content #main .post .texto .contenido ul li {
+  list-style: disc;
+}
+.single #content #main .post .texto .contenido ul li ul li,
+.page #content #main .post .texto .contenido ul li ul li,
+.error404 #content #main .post .texto .contenido ul li ul li {
+  list-style: circle;
 }
 .single #content #main.autoridades-lista .post .pic,
 .page #content #main.autoridades-lista .post .pic,
