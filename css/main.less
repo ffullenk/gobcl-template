@@ -1197,6 +1197,7 @@ footer {
 							border-left:2px solid @gob-azul;
 							margin:0;
 							padding:0 0 0 20px;
+							line-height:160%;
 							p {
 								.georgia;
 								font-style:italic;
@@ -1211,6 +1212,28 @@ footer {
 						}
 						iframe, object {
 							max-width:100%;
+						}
+						ol, ul {
+							padding-left:25px;
+							margin-bottom:15px;
+							li {
+								margin-bottom:5px;
+							}
+							ol, ul {
+								margin-bottom:0;
+							}
+						}
+						ol li {
+							list-style:decimal;
+							ol {
+								list-style:decimal;
+							}
+						}
+						ul li {
+							list-style:disc;
+							ul li {
+								list-style:circle;
+							}
 						}
 					}
 				}

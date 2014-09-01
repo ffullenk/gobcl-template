@@ -1377,7 +1377,7 @@ footer .bottom .bicolor {
 .single #content #main .post .texto .contenido ol li ol,
 .page #content #main .post .texto .contenido ol li ol,
 .error404 #content #main .post .texto .contenido ol li ol {
-  list-style: lower-roman;
+  list-style: decimal;
 }
 .single #content #main .post .texto .contenido ul li,
 .page #content #main .post .texto .contenido ul li,
